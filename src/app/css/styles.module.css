@@ -1,0 +1,12 @@
+.resnavbar.active {
+    opacity: 1;
+    transform: translateY(0);
+    background-color: blueviolet;
+    display: block;
+}
+
+@media (max-width: 769px) {
+    .resnavbar {
+        display: block;
+    }
+}
