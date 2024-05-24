@@ -10,8 +10,8 @@ function page() {
         Crafting intuitive interfaces that bring dreams to digital reality.
       </h1>
       <div className="cards flex flex-col md:flex-row gap-10 mt-10 ">
-        <Card img='/euroauto.jpg' text='project' customClass='' link='/' />
-        <Card img='/puntopago.jpg' text='project' customClass='md:mt-40' link='/' />
+        <Card img='/euroauto.jpg' text='project 01' customClass='' link='/' />
+        <Card img='/puntopago.jpg' text='project 02' customClass='md:mt-40' link='/' />
       </div>
     </div>
   )
