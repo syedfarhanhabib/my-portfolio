@@ -1,6 +1,6 @@
 import React from 'react'
 import { neueMachina } from '../fonts'
-import Card from '@/components/heroPage/Card'
+import Card from '@/components/WorkPage/Card'
 
 function page() {
   return (
@@ -12,6 +12,10 @@ function page() {
       <div className="cards flex flex-col md:flex-row gap-10 mt-10 ">
         <Card img='/euroauto.jpg' text='project 01' customClass='' link='/' />
         <Card img='/puntopago.jpg' text='project 02' customClass='md:mt-40' link='/' />
+      </div>
+      <div className="cards flex flex-col md:flex-row gap-10 mt-10 ">
+        <Card img='/riyadh.jpg' text='project 03' customClass='' link='/' />
+        <Card img='/kelvin.jpg' text='project 04' customClass='md:mt-40' link='/' />
       </div>
     </div>
   )
