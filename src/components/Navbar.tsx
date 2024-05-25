@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
           <ThemeSwitch />
           <Button text="About" customClass="border-none" link="/About" />
           <Button text="Work" customClass="border-none" link="/Work" />
-          <Button text="Let's chat" customClass="" link="/Contact" />
+          <Button text="Let's chat" customClass="" link="/contact" />
         </div>
       </header>
       {open && (
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
           <ThemeSwitch />
           <Button text="About" customClass="border-none" link="/About" />
           <Button text="Work" customClass="border-none" link="/Work" />
-          <Button text="Let's chat" customClass="" link="/Contact" />
+          <Button text="Let's chat" customClass="" link="/contact" />
         </div>
       )}
     </>

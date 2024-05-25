@@ -26,7 +26,7 @@ const config: Config = {
       current: 'currentColor',
       'light': '#f4f4f5', //zinc-100
       'depth-light': '#cbd5e1', //slate-300  
-      'accent': '#ef4444', //red-700
+      'red': '#ef4444', //red-700
       'yellow': '#eab308', //yellow-500
       'depth-dark': '#334155', //slate-700
       'dark': '#0a0a0a', //neutral-950
