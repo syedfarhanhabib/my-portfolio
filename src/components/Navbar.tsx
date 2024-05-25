@@ -5,8 +5,6 @@ import Button from "./Button"; // Make sure Button is correctly imported
 import Link from "next/link"; // Make sure Link is correctly imported
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import { easeIn, motion } from "framer-motion";
-import Headroom from 'react-headroom';
 import ThemeSwitch from "./ThemeSwitch";
 
 gsap.registerPlugin(useGSAP);
@@ -36,18 +34,18 @@ const Navbar: React.FC = () => {
           {open ? <IoClose /> : <IoReorderTwoOutline />}
         </div>
         <div className="end items-center justify-between md:flex gap-5 hidden">
-          <ThemeSwitch/>
+          <ThemeSwitch />
           <Button text="About" customClass="border-none" link="/About" />
           <Button text="Work" customClass="border-none" link="/Work" />
-          <Button text="Let's chat" customClass="" link="/contact" />
+          <Button text="Let's chat" customClass="" link="/Contact" />
         </div>
       </header>
       {open && (
         <div className="fixed right-5 z-[70] top-16 md:hidden duration-300 items-center justify-between flex flex-col w-fit bg-light text-dark dark:bg-dark dark:text-light border border-depth-light shadow-2xl dark:border-depth-dark rounded-3xl p-5 gap-5 ">
-          <ThemeSwitch/>
+          <ThemeSwitch />
           <Button text="About" customClass="border-none" link="/About" />
           <Button text="Work" customClass="border-none" link="/Work" />
-          <Button text="Let's chat" customClass="" link="/contact" />
+          <Button text="Let's chat" customClass="" link="/Contact" />
         </div>
       )}
     </>

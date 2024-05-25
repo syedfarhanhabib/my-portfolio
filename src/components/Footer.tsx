@@ -42,7 +42,7 @@ function Footer() {
         <div className="btm flex justify-between items-end">
           <div className="flex flex-col gap-3">
             <Button link='/' text="Case Studies" customClass=""></Button>
-            <Button text="Get a free analysis" link='/' customClass="md:text-5xl text-lg" >
+            <Button text="Free analysis" link='/' customClass="md:text-5xl text-lg" >
               {/* dark:bg-depth-dark bg-depth-light */}
             </Button>
           </div>

@@ -26,9 +26,9 @@ export default function ThemeSwitch() {
             <>
                 {/* <FiSun onClick={() => setTheme('light')} /> */}
                 <div onClick={() => setTheme('light')} className='relative scale-75 w-10 h-5 flex items-center dark:bg-depth-dark bg-depth-light cursor-pointer rounded-full transition-all duration-300 p-1' >
-                    <FaMoon className='text-dark ' size={12} />
+                    <FaSun className='text-dark ' size={12} />
                     <div className="absolute dark:bg-light bg-dark depth-dabg-depth-dark:bg-dark w-4 h-4 rounded-full shadow-md transform transition-transform duration-300" style={resolvedTheme ? { left: "2px" } : { right: "2px" }}></div>
-                    <FaSun className='ml-auto text-light' size={12} />
+                    <FaMoon className='ml-auto text-light' size={12} />
                 </div>
             </>
 
@@ -39,9 +39,9 @@ export default function ThemeSwitch() {
             <>
                 {/* <FaMoon onClick={() => setTheme('dark')} /> */}
                 <div onClick={() => setTheme('dark')} className='relative scale-75 w-10 h-5 flex items-center dark:bg-depth-dark bg-depth-light cursor-pointer rounded-full transition-all duration-300 p-1' >
-                    <FaMoon className='text-dark ' size={12} />
+                    <FaSun className='text-dark ' size={12} />
                     <div className="absolute dark:bg-light bg-dark depth-dabg-depth-dark:bg-dark w-4 h-4 rounded-full shadow-md transform transition-transform duration-300" style={resolvedTheme ? { right: "2px" } : { right: "2px" }}></div>
-                    <FaSun className='ml-auto text-light' size={12} />
+                    <FaMoon className='ml-auto text-light' size={12} />
                 </div>
             </>
 

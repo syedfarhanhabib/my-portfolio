@@ -8,7 +8,7 @@ import Button from '@/components/Button';
 export default function Home() {
   return (
     <>
-      <div className="hero w-full overflow-hidden min-h-dvh bg-light text-dark dark:bg-dark dark:text-light px-10 relative pt-40 flex flex-col justify-between">
+      <section className="hero w-full overflow-hidden min-h-dvh bg-light text-dark dark:bg-dark dark:text-light px-10 relative pt-40 flex flex-col justify-between">
         <Image src={"/hero.png"} width={600} height={100} alt='' className='md:hdden absolute right-0 bottom-0 rotate-90 mix-blend-hard-light' />
         <h1 className={`${neueMachina.className} tracking-tightest text-4xl md:text-7xl leading-none text-transparent bg-clip-text bg-gradient-to-br from-dark dark:from-light dark:to-depth-dark to-depth-light pb-5`}>Multidisciplinary <span className='text-yellow'>developer</span> focusing on digital experiences.</h1>
         {/* <div className='absolute w-[596px] h-48 right-0 bottom-36 blur-[190px] bg-light/40'></div> */}
@@ -17,16 +17,16 @@ export default function Home() {
           <h3>From the first pitch to IPO</h3>
           <Button link='/' text='Start the project' customClass='' />
         </div>
-      </div>
-      <div className="projects z-10 w-full min-h-dvh p-10 bg-light text-dark dark:bg-dark dark:text-light">
+      </section>
+      <section className="projects z-10 w-full min-h-dvh p-10 bg-light text-dark dark:bg-dark dark:text-light">
         <TabsSection />
-      </div>
-      <div className="lampsection w-full min-h-dvh">
+      </section>
+      <section className="lampsection w-full min-h-dvh">
         <LampSection />
-      </div>
-      {/* <div className="pin-card w-full min-h-dvh">
+      </section>
+      {/* <section className="pin-card w-full min-h-dvh">
         <AnimatedPinDemo />
-      </div> */}
+      </section> */}
     </>
   );
 }
