@@ -3,14 +3,11 @@ import React, { useRef, useState } from "react";
 import { IoClose, IoReorderTwoOutline } from "react-icons/io5";
 import Button from "./Button"; // Make sure Button is correctly imported
 import Link from "next/link"; // Make sure Link is correctly imported
-import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
 import ThemeSwitch from "./ThemeSwitch";
+import { motion } from "framer-motion";
 
-gsap.registerPlugin(useGSAP);
 
 const Navbar: React.FC = () => {
-  const headerRef = useRef(null)
 
   const [open, setOpen] = useState(false)
   const toggle = () => {
@@ -19,7 +16,16 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <header ref={headerRef} className="header bg-light/5 text-dark dark:bg-dark/5 dark:text-light fixed top-0 tracking-tighter backdrop-blur z-[999] w-full p-3 font-light flex md:items-center justify-between text-base d:text-lg leading-none">
+      <motion.header
+        initial={{ y: "-100%" }}
+        whileInView={{ y: "0%" }}
+        transition={{
+          duration: .1,
+          type: "spring",
+          stiffness: 260,
+          damping: 20
+        }}
+        className="header bg-light/5 text-dark dark:bg-dark/5 dark:text-light fixed top-0 tracking-tighter backdrop-blur z-[999] w-full p-3 font-light flex md:items-center justify-between text-base d:text-lg leading-none">
         <Link href="/" className="font-medium">
           syedFarhan
         </Link>
@@ -35,16 +41,16 @@ const Navbar: React.FC = () => {
         </div>
         <div className="end items-center justify-between md:flex gap-5 hidden">
           <ThemeSwitch />
-          <Button text="About" customClass="border-none" link="/About" />
-          <Button text="Work" customClass="border-none" link="/Work" />
+          <Button text="About" customClass="border-none" link="/about" />
+          <Button text="Work" customClass="border-none" link="/work" />
           <Button text="Let's chat" customClass="" link="/contact" />
         </div>
-      </header>
+      </motion.header>
       {open && (
         <div className="fixed right-5 z-[70] top-16 md:hidden duration-300 items-center justify-between flex flex-col w-fit bg-light text-dark dark:bg-dark dark:text-light border border-depth-light shadow-2xl dark:border-depth-dark rounded-3xl p-5 gap-5 ">
           <ThemeSwitch />
-          <Button text="About" customClass="border-none" link="/About" />
-          <Button text="Work" customClass="border-none" link="/Work" />
+          <Button text="About" customClass="border-none" link="/about" />
+          <Button text="Work" customClass="border-none" link="/work" />
           <Button text="Let's chat" customClass="" link="/contact" />
         </div>
       )}
