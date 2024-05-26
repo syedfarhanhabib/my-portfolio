@@ -15,11 +15,20 @@ function Footer() {
     <>
       <div className="w-full tracking-tighter font-light flex flex-col justify-between dark:bg-dark dark:text-light text-dark bg-light h-screen px-5 md:px-10 py-5">
         <div className="top w-full flex justify-between">
-          <p className="w-72 mt-20 leading-none tracking-tighter">
+          <motion.p
+            initial={{ x: "-100%" }}
+            whileInView={{ x: "0%" }}
+            transition={{
+              duration: .4,
+              type: "spring",
+              stiffness: 260,
+              damping: 20
+            }}
+            className="w-72 mt-20 leading-none tracking-tighter">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reprehenderit explicabo, sint tempora obcaecati maxime quasi
             quisquam optio repellat.
-          </p>
+          </motion.p>
           <div className="overflow-hidden">
             <motion.div
               initial={{ x: "100%" }}
