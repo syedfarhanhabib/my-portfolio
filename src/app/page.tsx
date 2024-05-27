@@ -14,11 +14,15 @@ export default function Home() {
       <section className="hero w-full overflow-hidden min-h-dvh bg-light text-dark dark:bg-dark dark:text-light px-10 relative pt-40 flex flex-col justify-between">
         <Image src={"/hero.png"} width={600} height={100} alt='' className='md:hdden absolute right-0 bottom-0 rotate-90 mix-blend-hard-light' />
         <Text className=''>Multidisciplinary <span className='text-yellow'>developer</span> focusing on digital experiences.</Text>
-        <div className="btm font-light flex flex-col md:flex-row gap-3 items-center justify-between tracking-tightest w-full py-5 border-t dark:border-depth-dark border-depth-light">
-          <h3>For public and private companies</h3>
-          <h3>From the first pitch to IPO</h3>
-          <Button link='/' text='Start the project' customClass='' />
+        <div className="overflow-hidden">
+          <motion.div
+            className="btm font-light flex flex-col md:flex-row gap-3 items-center justify-between tracking-tightest w-full py-5 border-t dark:border-depth-dark border-depth-light">
+            <h3>For public and private companies</h3>
+            <h3>From the first pitch to IPO</h3>
+            <Button link='/' text='Start the project' customClass='' />
+          </motion.div>
         </div>
+
       </section>
       <section className="projects z-10 w-full min-h-dvh p-10 bg-light text-dark dark:bg-dark dark:text-light">
         <TabsSection />
