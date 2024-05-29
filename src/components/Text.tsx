@@ -21,7 +21,7 @@ const Text: React.FC<TextProps> = ({ children, className }) => {
                     type: "spring",
                     stiffness: 260,
                     damping: 20
-                }} className={`${neueMachina.className} ${className} tracking-tightest leading-none text-transparent bg-clip-text bg-gradient-to-br from-dark dark:from-light dark:to-depth-dark to-depth-light text-4xl md:text-7xl `}>
+                }} className={`${neueMachina.className} tracking-tightest leading-none text-transparent bg-clip-text bg-gradient-to-br from-dark dark:from-light dark:to-depth-dark to-depth-light text-4xl md:text-7xl ${className} `}>
                 {children}
             </motion.h1>
         </div>

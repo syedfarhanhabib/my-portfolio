@@ -6,8 +6,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { neueMachina } from '@/app/fonts';
 import { motion } from 'framer-motion';
-import Button from '../Button';
-import SecButton from '../SecButton';
 
 
 interface CardProps {

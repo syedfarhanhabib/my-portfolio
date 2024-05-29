@@ -24,7 +24,7 @@ const SecButton: React.FC<SecButtonProps> = ({ children, className }) => {
                     damping: 20
                 }}
                 className={`${neueMachina.className} ${className} ${styles.SecButton}`}>
-                {children} 
+                {children}
             </motion.h1>
         </div>
     );

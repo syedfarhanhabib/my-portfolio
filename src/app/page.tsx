@@ -1,12 +1,12 @@
 'use client';
-import { TabsSection } from '@/components/heroPage/TabSection';
+import { TabsSection } from '@/components/heroPage/tabSection';
 import { neueMachina } from './fonts';
 import { LampSection } from '@/components/heroPage/LampSection';
 import { AnimatedPinDemo } from '@/components/heroPage/3d-pinSection';
 import Image from 'next/image';
-import Button from '@/components/Button';
+import Button from '@/components/button';
 import { motion, easeOut } from 'framer-motion';
-import Text from '@/components/Text';
+import Text from '@/components/text';
 
 export default function Home() {
   return (
