@@ -11,7 +11,7 @@ import Text from '@/components/text';
 export default function Home() {
   return (
     <>
-      <section className="hero w-full overflow-hidden min-h-dvh bg-light text-dark dark:bg-dark dark:text-light px-10 relative pt-40 flex flex-col justify-between">
+      <section className="hero  w-full overflow-hidden min-h-dvh bg-light text-dark dark:bg-dark dark:text-light px-10 relative pt-40 flex flex-col justify-between">
         <Image src={"/hero.png"} width={600} height={100} alt='' className='md:hdden absolute right-0 bottom-0 rotate-90 mix-blend-hard-light' />
         <Text className=''>Multidisciplinary <span className='text-yellow'>developer</span> focusing on digital experiences.</Text>
         <div className="overflow-hidden">
