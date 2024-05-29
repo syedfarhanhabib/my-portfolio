@@ -16,6 +16,14 @@ export default function Home() {
         <Text className=''>Multidisciplinary <span className='text-yellow'>developer</span> focusing on digital experiences.</Text>
         <div className="overflow-hidden">
           <motion.div
+            initial={{ y: "100%", }}
+            whileInView={{ y: "0%", }}
+            transition={{
+              duration: .4,
+              type: "spring",
+              stiffness: 260,
+              damping: 20
+            }}
             className="btm font-light flex flex-col md:flex-row gap-3 items-center justify-between tracking-tightest w-full py-5 border-t dark:border-depth-dark border-depth-light">
             <h3>For public and private companies</h3>
             <h3>From the first pitch to IPO</h3>

@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/components/aboutPage/Skills.tsx"  ],
   "exclude": [
     "node_modules"
   ]
