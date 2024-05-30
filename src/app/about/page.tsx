@@ -1,8 +1,8 @@
 'use client';
 import React from 'react'
-import Text from '@/components/animText';
-import Skills from '@/components/aboutPage/skillSection';
-import Experience from '@/components/aboutPage/expSection';
+import Text from '@/components/text';
+import Skills from '@/components/aboutPage/skillsSection';
+import Experience from '@/components/aboutPage/experience';
 
 function page() {
     return (

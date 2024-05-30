@@ -4,10 +4,10 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaBehance } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import Button from '@/components/appButton';
+import Button from '@/components/button';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import Text from '@/components/animText';
+import Text from '@/components/text';
 
 function Footer() {
   return (

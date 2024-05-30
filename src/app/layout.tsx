@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./css/globals.css"
-import Navbar from "@/components/mynavbar";
-import Footer from "@/components/myFooter"
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer"
 import { spaceGrotesk } from "./fonts";
 import { Providers } from "./Providers";
 

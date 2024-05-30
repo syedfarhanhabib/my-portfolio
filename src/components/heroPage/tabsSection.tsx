@@ -1,5 +1,5 @@
 "use client";
-import { Tabs } from "@/components/heroPage/tabsComp";
+import { Tabs } from "@/components/heroPage/tabs";
 import TabCard from "@/components/heroPage/tabsCard";
 
 export function TabsSection() {

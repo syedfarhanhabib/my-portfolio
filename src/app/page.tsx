@@ -2,11 +2,11 @@
 import { TabsSection } from '@/components/heroPage/tabsSection';
 import { neueMachina } from './fonts';
 import { LampSection } from '@/components/heroPage/lightSection';
-import { AnimatedPinDemo } from '@/components/heroPage/3d-pinSection';
+import { AnimatedPinDemo } from '@/components/heroPage/pinCardSection';
 import Image from 'next/image';
-import Button from '@/components/appButton';
+import Button from '@/components/button';
 import { motion, easeOut } from 'framer-motion';
-import Text from '@/components/animText';
+import Text from '@/components/text';
 
 export default function Home() {
   return (
