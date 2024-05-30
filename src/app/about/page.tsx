@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import Text from '@/components/text';
+import Text from '@/components/ui/text';
 import Skills from '@/components/aboutPage/skillsSection';
 import Experience from '@/components/aboutPage/experience';
 

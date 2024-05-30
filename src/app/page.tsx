@@ -4,9 +4,9 @@ import { neueMachina } from './fonts';
 import { LampSection } from '@/components/heroPage/lightSection';
 import { AnimatedPinDemo } from '@/components/heroPage/pinCardSection';
 import Image from 'next/image';
-import Button from '@/components/button';
+import Button from '@/components/ui/button';
 import { motion, easeOut } from 'framer-motion';
-import Text from '@/components/text';
+import Text from '@/components/ui/text';
 
 export default function Home() {
   return (

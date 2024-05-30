@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import Text from '@/components/text';
+import Text from '@/components/ui/text';
 
 function page() {
   return (

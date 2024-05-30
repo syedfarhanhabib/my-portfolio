@@ -1,9 +1,9 @@
 "use client";
 import React, { useRef, useState } from "react";
 import { IoClose, IoReorderTwoOutline } from "react-icons/io5";
-import Button from "@/components/button"; // Make sure Button is correctly imported
+import Button from "@/components/ui/button"; // Make sure Button is correctly imported
 import Link from "next/link"; // Make sure Link is correctly imported
-import ThemeSwitch from "@/components/theme";
+import ThemeSwitch from "@/components/ui/theme";
 import { motion } from "framer-motion";
 
 

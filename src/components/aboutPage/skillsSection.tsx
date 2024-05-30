@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import SkillCard from '@/components/aboutPage/skillsCard'; // Make sure the path to SkillCard is correct
 import { skillData } from '@/utils/data'; // Check the path to SkillData
 import SkillsInfoCard from '@/components/aboutPage/skillsInfo';
-import Text from '@/components/text';
+import Title from '@/components/ui/title';
 
 const Skills = () => {
     const [selectedSkill, setSelectedSkill] = useState(skillData[0])
@@ -12,7 +12,7 @@ const Skills = () => {
     }
     return (
         <section className='mt-20'>
-            <Text className='md:scale-0 scale-50'>Technical proficiency</Text>
+            <Title className=''>Technical proficiency</Title>
             <div className="skills-content flex flex-col md:flex-row items-start gap-5 md:gap-10">
                 <div className="skill-card flex gap-5 flex-col">
                     {skillData.map((item) => (
