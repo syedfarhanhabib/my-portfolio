@@ -3,7 +3,7 @@ import React from 'react'
 import { neueMachina } from '../fonts'
 import Card from '@/components/worksPage/card'
 import { motion } from 'framer-motion'
-import Text from '@/components/text';
+import Text from '@/components/animText';
 import { RiLoopRightLine } from 'react-icons/ri';
 
 function page() {

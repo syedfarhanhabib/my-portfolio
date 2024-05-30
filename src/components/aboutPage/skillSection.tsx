@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import SkillCard from '@/components/aboutPage/skillCard'; // Make sure the path to SkillCard is correct
 import { skillData } from '@/utils/data'; // Check the path to SkillData
-import SkillsInfoCard from '@/components/aboutPage/SkillsInfoCard';
-import Text from '@/components/text';
+import SkillsInfoCard from '@/components/aboutPage/skillsInfoCard';
+import Text from '@/components/animText';
 
 const Skills = () => {
     const [selectedSkill, setSelectedSkill] = useState(skillData[0])

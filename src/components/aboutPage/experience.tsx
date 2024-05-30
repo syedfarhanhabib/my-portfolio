@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Text from '@/components/text';
+import Text from '@/components/animText';
 import { experiencesData } from '@/utils/data';
 
 interface ExperienceData {

@@ -1,9 +1,7 @@
 'use client';
 import React from 'react'
-import { motion } from 'framer-motion';
-import { neueMachina } from '../fonts';
-import Text from '@/components/text';
-import Skills from '@/components/aboutPage/skills';
+import Text from '@/components/animText';
+import Skills from '@/components/aboutPage/skillSection';
 import Experience from '@/components/aboutPage/experience';
 
 function page() {
@@ -14,7 +12,7 @@ function page() {
             <section className="skills">
                 <Skills />
             </section>
-            <section className='w-full mt-20'>
+            <section className='w-full  mt-20'>
                 <Experience />
             </section>
 
