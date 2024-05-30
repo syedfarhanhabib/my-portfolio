@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
         </div>
       </motion.header>
       {open && (
-        <div className="fixed right-5 z-[70] top-16 md:hidden duration-300 items-center justify-between flex flex-col w-fit bg-light text-dark dark:bg-dark dark:text-light border border-depth-light shadow-2xl dark:border-depth-dark rounded-3xl p-5 gap-5 ">
+        <div className="fixed right-5 z-[70] top-16 md:hidden duration-300 items-center justify-between flex flex-col w-fit bg-light text-dark dark:bg-dark dark:text-light border border-depth-light shadow-lg dark:border-depth-dark rounded-lg p-5 gap-5 ">
           <ThemeSwitch />
           <Button text="About" customClass="border-none" link="/about" />
           <Button text="Work" customClass="border-none" link="/works" />

@@ -45,7 +45,7 @@ export const experiencesData = [
         description:
             "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "2012 - 2019",
     },
     {
         title: "Front-End Developer",
@@ -61,6 +61,14 @@ export const experiencesData = [
         description:
             "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
         icon: React.createElement(FaReact),
-        date: "2021 - present",
+        date: "2021 - 2024",
+    },
+    {
+        title: "Graduated bootcamp",
+        location: "Miami, FL",
+        description:
+            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+        icon: React.createElement(LuGraduationCap),
+        date: "2019 - 2022",
     },
 ] as const;

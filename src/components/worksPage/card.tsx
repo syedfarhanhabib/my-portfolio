@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ customClass, text, img, link, icon }) => {
           }}
           className={`relative w-full md:w-[40vw] md:h-[80dvh]`}>
           {/* <SecButton className=''>{text}{icon}</SecButton> */}
-          <Image className='w-full h-full object-cover hover:scale-[1.009] rounded-3xl' height={500} width={500} src={img} alt='Project cover' />
+          <Image className='w-full h-full object-cover hover:scale-[1.009] shadow-lg rounded-lg' height={500} width={500} src={img} alt='Project cover' />
         </motion.div>
       </div>
     </>

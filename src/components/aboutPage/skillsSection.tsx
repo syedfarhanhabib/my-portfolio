@@ -14,7 +14,7 @@ const Skills = () => {
         <section className='mt-20'>
             <Title className=''>Technical proficiency</Title>
             <div className="skills-content flex flex-col md:flex-row items-start gap-5 md:gap-10">
-                <div className="skill-card flex gap-5 flex-col">
+                <div className="skill-card flex flex-wrap gap-5 md:flex-col">
                     {skillData.map((item) => (
                         <SkillCard
                             key={item.title}

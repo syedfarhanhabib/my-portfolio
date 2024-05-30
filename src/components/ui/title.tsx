@@ -19,7 +19,7 @@ const Title: React.FC<TitleProps> = ({ children, className }) => {
                     type: "spring",
                     stiffness: 260,
                     damping: 20
-                }} className={` tracking-tighter leading-none flex items-center text-sm md:text-lg px-3 py-2 w-fit h-fit rounded-full mb-3 dark:text-dark dark:bg-light bg-dark text-light ${className}`}>
+                }} className={` tracking-tighter leading-none flex items-center text-xs md:text-lg px-3 py-2 w-fit h-fit rounded-full mb-3 dark:text-dark dark:bg-light bg-dark text-light ${className}`}>
                 {children}
             </motion.h1>
         </div>
