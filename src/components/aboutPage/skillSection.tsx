@@ -1,8 +1,8 @@
 'use client';
 import React, { useState } from 'react';
-import SkillCard from '@/components/aboutPage/skillCard'; // Make sure the path to SkillCard is correct
+import SkillCard from '@/components/aboutPage/skillsCard'; // Make sure the path to SkillCard is correct
 import { skillData } from '@/utils/data'; // Check the path to SkillData
-import SkillsInfoCard from '@/components/aboutPage/skillsInfoCard';
+import SkillsInfoCard from '@/components/aboutPage/skillsInfo';
 import Text from '@/components/animText';
 
 const Skills = () => {

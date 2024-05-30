@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Lamp } from "@/components/heroPage/lamp";
+import { Lamp } from "@/components/heroPage/light";
 import { neueMachina } from "@/app/fonts";
 
 export function LampSection() {

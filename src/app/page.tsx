@@ -1,7 +1,7 @@
 'use client';
 import { TabsSection } from '@/components/heroPage/tabsSection';
 import { neueMachina } from './fonts';
-import { LampSection } from '@/components/heroPage/LampSection';
+import { LampSection } from '@/components/heroPage/lightSection';
 import { AnimatedPinDemo } from '@/components/heroPage/3d-pinSection';
 import Image from 'next/image';
 import Button from '@/components/appButton';

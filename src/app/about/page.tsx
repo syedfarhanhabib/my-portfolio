@@ -2,7 +2,7 @@
 import React from 'react'
 import Text from '@/components/animText';
 import Skills from '@/components/aboutPage/skillSection';
-import Experience from '@/components/aboutPage/experience';
+import Experience from '@/components/aboutPage/expSection';
 
 function page() {
     return (

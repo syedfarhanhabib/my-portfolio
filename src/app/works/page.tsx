@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import { neueMachina } from '../fonts'
-import Card from '@/components/worksPage/card'
+import Card from '@/components/worksPage/workCard'
 import { motion } from 'framer-motion'
 import Text from '@/components/animText';
 import { RiLoopRightLine } from 'react-icons/ri';
