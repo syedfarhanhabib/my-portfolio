@@ -63,8 +63,8 @@ function Footer() {
         </div>
         <div className="btm flex justify-between items-end">
           <div className="flex flex-col gap-3">
-            <Button link='/' text="Case Studies" customClass="" />
-            <Button text="Free analysis" link='/' customClass="md:text-5xl text-lg" />
+            <Button link='/' text="Case Studies" className="" />
+            <Button text="Free analysis" link='/' className="md:text-5xl text-lg" />
           </div>
           <h3 className="text-right md:text-base text-sm">Copyright © 2024 Syed Farhan</h3>
         </div>

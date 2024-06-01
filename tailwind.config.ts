@@ -28,7 +28,7 @@ const config: Config = {
       'depth-light': '#cbd5e1', //slate-300  
       'red': '#ef4444', //red-700
       'yellow': '#eab308', //yellow-500
-      'depth-dark': '#334155', //slate-700
+      'depth-dark': '#1e293b', //slate-800
       'dark': '#0a0a0a', //neutral-950
     },
     extend: {

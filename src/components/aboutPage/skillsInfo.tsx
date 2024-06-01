@@ -15,7 +15,7 @@ const SkillsInfoCard: React.FC<SkillsInfoCardProps> = ({ heading, skills }) => {
     return (
         <>
             <section className='skillsInfoCard overflow-hidden w-full p-3 rounded-xl bg-re border border-depth-light dark:border-depth-dark'>
-                <h1 className='tracking-tighter pb-3 leading-none border-b border-depth-light dark:border-depth-dark'>{heading}</h1>
+                <h1 className='tracking-tighter font-semibold pb-3 leading-none border-b border-depth-light dark:border-depth-dark'>{heading}</h1>
                 {skills.map((item, index) => (
                     <React.Fragment key={`skill_${index}`}>
                         <div className="skillinfo font-light py-3 tracking-tighter leading-none flex items-center justify-between">

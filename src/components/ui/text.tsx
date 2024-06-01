@@ -12,7 +12,7 @@ interface TextProps {
 
 const Text: React.FC<TextProps> = ({ children, className }) => {
     return (
-        <div className="text py-2 overflow-hidden">
+        <div className="text overflow-hidden">
             <motion.h1
                 initial={{ y: "100%", }}
                 whileInView={{ y: "0%", }}

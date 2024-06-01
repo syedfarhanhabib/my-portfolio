@@ -13,21 +13,21 @@ export const skillData = [
             { skill: "HTML5", percentage: "70%" },
             { skill: "CSS (Tailwind)", percentage: "90%" },
             { skill: "Javascript", percentage: "65%" },
-            { skill: "TypeScript", percentage: "75%" },
-            { skill: "React.js", percentage: "88%" },
-            { skill: "Next.js", percentage: "78%" },
+            { skill: "TypeScript", percentage: "45%" },
+            { skill: "React.js", percentage: "75%" },
+            { skill: "Next.js", percentage: "90%" },
         ]
     },
-    {
-        title: "Tools",
-        icon: React.createElement(SiBackendless),
-        skills: [
-            { skill: "Git & GitHub", percentage: "70%" },
-            { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
-            { skill: "Javascript", percentage: "75%" },
-            { skill: "React.js", percentage: "88%" },
-        ]
-    },
+    // {
+    //     title: "Tools",
+    //     icon: React.createElement(SiBackendless),
+    //     skills: [
+    //         { skill: "Git & GitHub", percentage: "70%" },
+    //         { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
+    //         { skill: "Javascript", percentage: "75%" },
+    //         { skill: "React.js", percentage: "88%" },
+    //     ]
+    // },
     {
         title: "Backend",
         icon: React.createElement(SiBackendless),

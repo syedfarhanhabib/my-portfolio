@@ -3,6 +3,7 @@ import React from 'react'
 import Text from '@/components/ui/text';
 import Skills from '@/components/aboutPage/skillsSection';
 import ExpSection from '@/components/aboutPage/expSection';
+import { GlowingStarsBackgroundCard } from '@/components/ui/glowingStars';
 
 function page() {
     return (
@@ -12,7 +13,7 @@ function page() {
             <section className="skills mb-20">
                 <Skills />
             </section>
-            <ExpSection/>
+            <ExpSection />
         </section>
     )
 }

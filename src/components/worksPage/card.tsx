@@ -7,33 +7,30 @@ import Image from 'next/image';
 import { neueMachina } from '@/app/fonts';
 import { motion } from 'framer-motion';
 
-
 interface CardProps {
-  customClass: string;
+  className?: string;
   text: React.ReactNode;
   img: string;
   link: string;
   icon: React.ReactNode;
 }
 
-const Card: React.FC<CardProps> = ({ customClass, text, img, link, icon }) => {
+const Card: React.FC<CardProps> = ({ className, text, img, link, icon }) => {
   return (
     <>
-      <div className={`${customClass} overflow-hidden`}>
-        <motion.div
-          initial={{ x: "-50%", }}
-          whileInView={{ x: "0%", }}
-          transition={{
-            duration: .4,
-            type: "spring",
-            stiffness: 260,
-            damping: 20
-          }}
-          className={`relative w-full md:w-[40vw] md:h-[80dvh]`}>
-          {/* <SecButton className=''>{text}{icon}</SecButton> */}
-          <Image className='w-full h-full object-cover hover:scale-[1.009] shadow-lg rounded-lg' height={500} width={500} src={img} alt='Project cover' />
-        </motion.div>
-      </div>
+      <motion.div
+        initial={{ y: "20%", opacity: 0, scaleY:'50%' }}
+        whileInView={{ y: "0%", opacity: 1, scaleY:'100%' }}
+        transition={{
+          duration: .4,
+          type: "spring",
+          stiffness: 260,
+          damping: 20
+        }}
+        className={`${className} relative w-full md:w-[40vw] md:h-[80dvh]`}>
+        {/* <SecButton className=''>{text}{icon}</SecButton> */}
+        <Image className='w-full h-full object-cover hover:scale-[1.009] shadow-lg rounded-lg' height={500} width={500} src={img} alt='Project cover' />
+      </motion.div>
     </>
   );
 };
