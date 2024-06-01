@@ -3,7 +3,7 @@ import "./css/globals.css";
 import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer"
 import { spaceGrotesk } from "@/app/fonts";
-import { Providers } from "./Providers";
+import { Providers } from "@/app/Providers";
 
 export const metadata: Metadata = {
   title: "create next app",

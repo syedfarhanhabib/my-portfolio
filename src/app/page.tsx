@@ -27,10 +27,9 @@ export default function Home() {
             className="btm font-light flex flex-col md:flex-row gap-3 items-center justify-between tracking-tightest w-full py-5 border-t dark:border-depth-dark border-depth-light">
             <h3>For public and private companies</h3>
             <h3>From the first pitch to IPO</h3>
-            <Button link='/' text='Start the project' customClass='' />
+            <Button link='/' text='Start the project' className='' />
           </motion.div>
         </div>
-
       </section>
       <section className="projects z-10 w-full min-h-dvh p-10 bg-light text-dark dark:bg-dark dark:text-light">
         <TabsSection />
@@ -38,9 +37,6 @@ export default function Home() {
       <section className="lampsection w-full min-h-dvh">
         <LampSection />
       </section>
-      {/* <section className="pin-card w-full min-h-dvh">
-        <AnimatedPinDemo />
-      </section> */}
     </>
   );
 }
